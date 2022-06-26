@@ -1,0 +1,1402 @@
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 72, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 156, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\start.py", line 65, in start
+    if res[i][0][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 72, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 156, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\start.py", line 65, in start
+    if res[i][0][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001B25B84A280>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001B25B84A280>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 72, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 156, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\manage.py", line 120, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 72, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 156, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\manage.py", line 120, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 72, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\command.py", line 156, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\nemuh\Desktop\data\discord_bot\テスト用bot\maho-bot-main\manage.py", line 120, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001BF68DBA280>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001BF68DBA280>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000024945EEC310>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000019818F3C310>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+^C^C^C^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+^C^C^C^C^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 252, in request
+    raise DiscordServerError(r, data)
+discord.errors.DiscordServerError: 503 Service Temporarily Unavailable (error code: 0): <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>cloudflare-nginx</center>
+</body>
+</html>
+
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+^C^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 183, in allremove
+    await common.add_remove_role(data, message.guild, True)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 193, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 77, in on_message
+    common.delete_lock()
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 713, in delete_lock
+    os.remove(DATA_LOCK_PATH)
+FileNotFoundError: [WinError 2] 指定されたファイルが見つかりません。: 'data/lock.loc'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 183, in allremove
+    await common.add_remove_role(data, message.guild, True)
+  File "C:\Users\USER\Desktop\chell-bot-main3\common.py", line 206, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+^C^C^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\start.py", line 108, in start
+    if res[i][1][common.RESERVATION_STATUS_KEY] != common.RESERVE_STATUS_START :
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\fin.py", line 179, in fin
+    new_reserve = res[target_attack_index][1]
+IndexError: list index out of range
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\chell-bot-main3\command.py", line 160, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\chell-bot-main3\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+^C^C^CException ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000027043BBB3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001A547E3B3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001A547E3B3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000002169855B3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 85, in command_main
+    await recreate_channels_if_not_exist(data, message.guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 255, in recreate_channels_if_not_exist
+    await create_bot_channels(data, guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 205, in create_bot_channels
+    category_channel      = await guild.create_category_channel('ちぇるBOT')
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1050, in create_category
+    data = await self._create_channel(name, overwrites, ChannelType.category, reason=reason, position=position)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 85, in command_main
+    await recreate_channels_if_not_exist(data, message.guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 255, in recreate_channels_if_not_exist
+    await create_bot_channels(data, guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 205, in create_bot_channels
+    category_channel      = await guild.create_category_channel('ちぇるBOT')
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1050, in create_category
+    data = await self._create_channel(name, overwrites, ChannelType.category, reason=reason, position=position)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 85, in command_main
+    await recreate_channels_if_not_exist(data, message.guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 255, in recreate_channels_if_not_exist
+    await create_bot_channels(data, guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 205, in create_bot_channels
+    category_channel      = await guild.create_category_channel('ちぇるBOT')
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1050, in create_category
+    data = await self._create_channel(name, overwrites, ChannelType.category, reason=reason, position=position)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 85, in command_main
+    await recreate_channels_if_not_exist(data, message.guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 255, in recreate_channels_if_not_exist
+    await create_bot_channels(data, guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 205, in create_bot_channels
+    category_channel      = await guild.create_category_channel('ちぇるBOT')
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1050, in create_category
+    data = await self._create_channel(name, overwrites, ChannelType.category, reason=reason, position=position)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 85, in command_main
+    await recreate_channels_if_not_exist(data, message.guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 255, in recreate_channels_if_not_exist
+    await create_bot_channels(data, guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 205, in create_bot_channels
+    category_channel      = await guild.create_category_channel('ちぇるBOT')
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1050, in create_category
+    data = await self._create_channel(name, overwrites, ChannelType.category, reason=reason, position=position)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 75, in on_message
+    await command_main(message)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 85, in command_main
+    await recreate_channels_if_not_exist(data, message.guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 255, in recreate_channels_if_not_exist
+    await create_bot_channels(data, guild)
+  File "C:\Users\nemuh\Desktop\chell-bot-main3\chell-bot-main3\command.py", line 205, in create_bot_channels
+    category_channel      = await guild.create_category_channel('ちぇるBOT')
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1050, in create_category
+    data = await self._create_channel(name, overwrites, ChannelType.category, reason=reason, position=position)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 248, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000021ACBEEB3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000021ACBEEB3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022123ACA3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+    self.close()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000022123ACA3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000001C288B9C310>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x00000216EB8BA3A0>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+^CException ignored in: <function _ProactorBasePipeTransport.__del__ at 0x00000167747AE280>
+Traceback (most recent call last):
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 116, in __del__
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\proactor_events.py", line 108, in close
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+  File "C:\Users\nemuh\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+RuntimeError: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 557, in <module>
+    client.run(BOT_TOKEN)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 723, in run
+    return future.result()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 702, in runner
+    await self.start(*args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 665, in start
+    await self.login(*args, bot=bot)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 511, in login
+    await self.http.static_login(token.strip(), bot=bot)
+AttributeError: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 557, in <module>
+    client.run(BOT_TOKEN)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 723, in run
+    return future.result()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 702, in runner
+    await self.start(*args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 665, in start
+    await self.login(*args, bot=bot)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 511, in login
+    await self.http.static_login(token.strip(), bot=bot)
+AttributeError: 'NoneType' object has no attribute 'strip'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 132, in on_raw_reaction_add
+    await message.remove_reaction(payload.emoji.name, payload.member)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\message.py", line 1262, in remove_reaction
+    await self._state.http.remove_reaction(self.channel.id, self.id, emoji, member.id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 254, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 10014): Unknown Emoji
+Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 132, in on_raw_reaction_add
+    await message.remove_reaction(payload.emoji.name, payload.member)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\message.py", line 1262, in remove_reaction
+    await self._state.http.remove_reaction(self.channel.id, self.id, emoji, member.id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 254, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 10014): Unknown Emoji
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 183, in allremove
+    await common.add_remove_role(data, message.guild, True)
+  File "C:\Users\USER\Desktop\discord_bot-main\common.py", line 232, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 250, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: 404 Not Found (error code: 10007): Unknown Member
+^CIgnoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 384, in command_main
+    reservation_message = await fetch_reservation_message(data, message.guild)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 497, in fetch_reservation_message
+    message = await message.fetch()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\message.py", line 1501, in fetch
+    data = await self._state.http.get_message(self.channel.id, self.id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 265, in request
+    raise DiscordServerError(r, data)
+discord.errors.DiscordServerError: 500 Internal Server Error (error code: 0): 500: Internal Server Error
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 357, in command_main
+    ref = await c[1](message, data, command_args, mention_ids)
+  File "C:\Users\USER\Desktop\discord_bot-main\manage.py", line 124, in mb
+    l = r[common.RESERVATION_LAP_NO_KEY]
+KeyError: 'lap_no'
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 94, in on_message
+    await command_main(message)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 398, in command_main
+    await common.add_remove_role(data, message.guild, False)
+  File "C:\Users\USER\Desktop\discord_bot-main\common.py", line 232, in add_remove_role
+    u = await guild.fetch_member(member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\guild.py", line 1397, in fetch_member
+    data = await self._state.http.get_member(self.id, member_id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 192, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 544, in _request
+    await resp.start(conn)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 890, in start
+    message, payload = await self._protocol.read()  # type: ignore
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\streams.py", line 604, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 64] 指定されたネットワーク名は利用できません。
+Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\USER\Desktop\discord_bot-main\command.py", line 132, in on_raw_reaction_add
+    await message.remove_reaction(payload.emoji.name, payload.member)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\message.py", line 1262, in remove_reaction
+    await self._state.http.remove_reaction(self.channel.id, self.id, emoji, member.id)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\http.py", line 254, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 10014): Unknown Emoji
+^C

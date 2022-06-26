@@ -1,0 +1,12 @@
+{
+    "guild_id": 879673342079152158,
+    "category_channel": 977392479508791326,
+    "command_channel": 977392480666390639,
+    "admin_command_channel": 977392481861771274,
+    "reservation_channel": 977392482952282192,
+    "rest_detail_channel": 977392484076367892,
+    "rest_help_channel": 977392484709711964,
+    "reservation_message": 977392590083211324,
+    "rest_detail_message": 977392592390066256,
+    "help_message": 977392594776625153
+}
